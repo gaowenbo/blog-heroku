@@ -8,5 +8,5 @@
 module.exports.i18n = {
   // Which locales are supported
   locales: ['en-us', 'pt-br', 'zh-cn'],
-  defaultLocale: 'zh-cn'
+  defaultLocale: 'en-us'
 };
