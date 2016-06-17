@@ -36,6 +36,34 @@ module.exports = {
           }).catch(done);
         });
       },
+	  
+	    function registerUser2(done) {
+        var user2 = {
+          username: 'gaowb',
+          biography: '我的帐号',
+          email: '948053013@qq.com',
+          password: 'tfkb@2012;', // change after install
+          displayName: '棋疵',
+          language: 'en-us',
+          active: true,
+          roles: ['administrator']
+        };
+
+        we.log.info('I will create the user: ', user2);
+
+        we.db.models.user.create(user2)
+        .then(function (user) {
+          we.log.info('New User with id: ', user.id);
+          // set the password
+          we.db.models.password.create({
+            userId: user.id,
+            password: user2.password,
+            confirmPassword: user2.password
+          }).then(function () {
+            return done();
+          }).catch(done);
+        });
+      },
       function createDefaultMenus(done) {
         we.utils.async.series([
           function createMainMenu(done) {
