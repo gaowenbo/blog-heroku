@@ -15,7 +15,7 @@
   "admin.user.roles": "Roles",
   "article.create": "Create article",
   "article.delete.confirm.msg": "Are you sure you want to delete this article? \n You can not undo this action",
-  "article.find": "文章",
+  "article.find": "发表的文章",
   "article.find.empty": "没有发布的文章",
   "article.published": "已发布",
   "article.published.btn.publish": "发布",
