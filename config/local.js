@@ -21,9 +21,8 @@ module.exports = {
    service: 'Mandrill',
     type: 'SMTP',
     host: 'smtp.qq.com',
-     port: 587,
-	 debug: true,
-     secure: 'true'
+     port: 465,
+	 debug: true
   //   // localAddress: '',
   //   // connectionTimeout: '',
   //   // greetingTimeout: '',
