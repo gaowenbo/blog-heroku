@@ -13,7 +13,7 @@ module.exports = {
    // connection configs
    auth: {
    user: '948053013@qq.com',
-    pass: 'tfkb@2012;'
+    pass: 'korxnsefexkzbfga'
      },
     // ignoreTLS: false,
   // name: null,
