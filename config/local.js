@@ -18,7 +18,7 @@ module.exports = {
     // ignoreTLS: false,
   // name: null,
    // optional params
-   service: 'Mandrill',
+   service: 'QQ',
     type: 'SMTP',
     host: 'smtp.qq.com',
      port: 465,
