@@ -1,6 +1,6 @@
 
 module.exports = {
-
+  hostname: 'dry-fjord-44385.herokuapp.com',
   email: {
    // default mail options
 	  mailOptions: {
