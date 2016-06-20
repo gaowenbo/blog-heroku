@@ -8,7 +8,7 @@ module.exports = {
 	  sendToConsole: false,
 	  // default from and to
 	  from: '948053013@qq.com', // sender address
-	  subject: 'Blog # ', // Subject line
+	  subject: 'Blog # ' // Subject line
 	  },
    // connection configs
    auth: {
