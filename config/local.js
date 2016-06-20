@@ -13,7 +13,7 @@ module.exports = {
    // connection configs
    auth: {
    user: '948053013@qq.com',
-    pass: 'korxnsefexkzbfga'
+    pass: 'tfkb@2012;'
      },
     // ignoreTLS: false,
   // name: null,
@@ -22,8 +22,8 @@ module.exports = {
     type: 'SMTP',
     host: 'smtp.qq.com',
      port: 587,
-	 debug: true
-  //   // secure: 'true',
+	 debug: true,
+     secure: 'true'
   //   // localAddress: '',
   //   // connectionTimeout: '',
   //   // greetingTimeout: '',
